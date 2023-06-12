@@ -1,0 +1,55 @@
+Peso de los archivos
+Peso de los archivos
+-rwxr-xr-x  1 todomundomx  staff   373M Jun  2 12:53 CmasM_1_S15_R1_001.fastq.gz
+-rwxr-xr-x  1 todomundomx  staff   378M Jun  2 12:57 CmasM_1_S15_R2_001.fastq.gz
+-rwxr-xr-x  1 todomundomx  staff   402M Jun  2 13:02 CmasM_2_S16_R1_001.fastq.gz
+-rwxr-xr-x  1 todomundomx  staff   407M Jun  2 13:08 CmasM_2_S16_R2_001.fastq.gz
+-rwxr-xr-x  1 todomundomx  staff   373M Jun  2 12:53 EhMyb10_1_S11_R1_001.fastq.gz
+-rwxr-xr-x  1 todomundomx  staff   433M Jun  2 13:20 EhMyb10_1_S11_R2_001.fastq.gz
+-rwxr-xr-x  1 todomundomx  staff   419M Jun  2 13:26 EhMyb10_2_S12_R1_001.fastq.gz
+-rwxr-xr-x  1 todomundomx  staff   426M Jun  2 13:33 EhMyb10_2_S12_R2_001.fastq.gz
+-rwxr-xr-x  1 todomundomx  staff   348M Jun  2 13:33 U2AF84_1_S13_R1_001.fastq.gz
+-rwxr-xr-x  1 todomundomx  staff   353M Jun  2 13:38 U2AF84_1_S13_R2_001.fastq.gz
+-rwxr-xr-x  1 todomundomx  staff   344M Jun  2 13:41 U2AF84_2_S14_R1_001.fastq.gz
+-rwxr-xr-x  1 todomundomx  staff   351M Jun  2 13:44 U2AF84_2_S14_R2_001.fastq.gz
+-rwxr-xr-x  1 todomundomx  staff   468M Jun  2 13:51 UmasM_1_S17_R1_001.fastq.gz
+-rwxr-xr-x  1 todomundomx  staff   493M Jun  2 13:57 UmasM_1_S17_R2_001.fastq.gz
+-rwxr-xr-x  1 todomundomx  staff   375M Jun  2 14:01 UmasM_2_S18_R1_001.fastq.gz
+-rwxr-xr-x  1 todomundomx  staff   383M Jun  2 14:07 UmasM_2_S18_R2_001.fastq.gz
+-rwxr-xr-x@ 1 todomundomx  staff   342M Jun  2 14:13 cdc5_1_S9_R1_001.fastq.gz
+-rwxr-xr-x  1 todomundomx  staff   346M Jun  2 14:18 cdc5_1_S9_R2_001.fastq.gz
+-rwxr-xr-x  1 todomundomx  staff   369M Jun  2 14:24 cdc5_2_S10_R1_001.fastq.gz
+-rwxr-xr-x  1 todomundomx  staff   374M Jun  2 14:29 cdc5_2_S10_R2_001.fastq.gz
+-rw-r--r--  1 todomundomx  staff    44G Jun  9 12:34 concatenatedorigin.fastq.gz
+-rwxr-xr-x  1 todomundomx  staff   477M Jun  2 15:28 pEhEx1_S7_R1_001.fastq.gz
+-rw-r--r--@ 1 todomundomx  staff   486M Jun  3 22:22 pEhEx1_S7_R2_001.fastq.gz
+-rwxr-xr-x  1 todomundomx  staff   377M Jun  2 15:29 pEhEx_2_S8_R1_001.fastq.gz
+-rw-r--r--@ 1 todomundomx  staff   384M Jun  3 22:24 pEhEx_2_S8_R2_001.fastq.gz
+Cantidad de secuencias
+Cantidad de secuencias
+Cantidad de secuencias
+350569 CmasM_1_S15_R1_001.fastq.gz
+371843 CmasM_1_S15_R2_001.fastq.gz
+378557 CmasM_2_S16_R1_001.fastq.gz
+401073 CmasM_2_S16_R2_001.fastq.gz
+350569 EhMyb10_1_S11_R1_001.fastq.gz
+424014 EhMyb10_1_S11_R2_001.fastq.gz
+401697 EhMyb10_2_S12_R1_001.fastq.gz
+427842 EhMyb10_2_S12_R2_001.fastq.gz
+328317 U2AF84_1_S13_R1_001.fastq.gz
+349374 U2AF84_1_S13_R2_001.fastq.gz
+320469 U2AF84_2_S14_R1_001.fastq.gz
+343306 U2AF84_2_S14_R2_001.fastq.gz
+442197 UmasM_1_S17_R1_001.fastq.gz
+481358 UmasM_1_S17_R2_001.fastq.gz
+351432 UmasM_2_S18_R1_001.fastq.gz
+374620 UmasM_2_S18_R2_001.fastq.gz
+319477 cdc5_1_S9_R1_001.fastq.gz
+337772 cdc5_1_S9_R2_001.fastq.gz
+346604 cdc5_2_S10_R1_001.fastq.gz
+367486 cdc5_2_S10_R2_001.fastq.gz
+212462560 concatenatedorigin.fastq.gz
+452105 pEhEx1_S7_R1_001.fastq.gz
+480520 pEhEx1_S7_R2_001.fastq.gz
+358029 pEhEx_2_S8_R1_001.fastq.gz
+380047 pEhEx_2_S8_R2_001.fastq.gz

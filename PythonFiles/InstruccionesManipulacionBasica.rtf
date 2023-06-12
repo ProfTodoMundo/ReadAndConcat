@@ -1,0 +1,141 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2580
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fnil\fcharset0 .AppleSystemUIFontMonospaced-Regular;\f1\fswiss\fcharset0 Helvetica;\f2\fmodern\fcharset0 Courier;
+}
+{\colortbl;\red255\green255\blue255;\red24\green26\blue30;\red38\green38\blue38;\red242\green242\blue242;
+\red210\green0\blue53;}
+{\*\expandedcolortbl;;\cssrgb\c12157\c13725\c15686;\cssrgb\c20000\c20000\c20000;\cssrgb\c96078\c96078\c96078;
+\cssrgb\c86667\c6667\c26667;}
+\margl1440\margr1440\vieww13980\viewh6340\viewkind0
+\deftab720
+\pard\pardeftab720\sl394\partightenfactor0
+
+\f0\fs27\fsmilli13600 \cf2 \expnd0\expndtw0\kerning0
+% << == >> << == >> << == >> << == >> << == >> << == >> 
+\f1\fs24 \cf0 \kerning1\expnd0\expndtw0 \
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardeftab720\pardirnatural\partightenfactor0
+\cf0 Instrucciones para uso en terminal\
+\pard\pardeftab720\sl394\partightenfactor0
+
+\f0\fs27\fsmilli13600 \cf2 \expnd0\expndtw0\kerning0
+% << == >> << == >> << == >> << == >> << == >> << == >> 
+\f1\fs24 \cf0 \kerning1\expnd0\expndtw0 \
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardeftab720\pardirnatural\partightenfactor0
+\cf0 wc -l *.fastq.gz\
+\
+wc -l *.fastq.gz >  longitudes.txt\
+\
+cat lengths.txt\
+\
+sort -n lengths.txt > sorted-lengths.txt\
+\
+head -n 1 sorted-longitudes.txt\
+\
+\
+sorted -n longitudes.txt | head -n 1 \
+\
+\
+wc -l *.fastq.gz | sort -n\
+\
+\pard\pardeftab720\sl394\partightenfactor0
+
+\f0\fs27\fsmilli13600 \cf2 \expnd0\expndtw0\kerning0
+wc -l *.fastq.gz | sort -n | head -n 1\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardeftab720\pardirnatural\partightenfactor0
+
+\f1\fs24 \cf0 \kerning1\expnd0\expndtw0 \
+\
+ls -lh\
+\
+\pard\pardeftab720\sl394\partightenfactor0
+
+\f0\fs27\fsmilli13600 \cf2 \expnd0\expndtw0\kerning0
+wc -l *.fastq.gz | sort -n | head -n 1\
+\
+ls -lh\
+\
+echo "Peso de los archivos" >> reporte.txt\
+ls -lh *.fastq >> reporte.txt\
+\
+echo "Cantidad de secuencias" >> reporte.txt\
+wc -l nombrearchivo.fastq.gz\
+\
+echo "Cantidad de secuencias" >> reporte.txt\
+wc -l concatenatedorigin.fastq.gz\
+\
+\
+wc -l concatenatedorigin.fastq |awk '\{print $1/4, $2\}'\
+\
+for mifastq in $(ls *.fastq.gz)\
+do\
+	wc -l $mifastq |awk '\{print $1/4, $2\}'\
+done >> reporte.txt\
+\
+cat reporte.txt\
+\
+% << == >> << == >> << == >> << == >> << == >> << == >> \
+\
+library(ShortRead)\
+\
+\pard\pardeftab720\sl371\partightenfactor0
+
+\f2\fs26 \cf3 \cb4 pwd <- paste0(dirname(getwd()), \cf5 \'93/Nextcloud/NubeGralCarlos/ElisaProject/Ensamblando/ArchivosFASTQGz/\'93\cf3 )\
+print(pwd)\
+\
+fastaqFiles <- list.files(pwd)\
+print(fastaqFiles)\
+\pard\pardeftab720\sl394\partightenfactor0
+
+\f0\fs27\fsmilli13600 \cf2 \cb1 \
+FqGz <- ShortRead::readFastq(dirPath = pwd, pattern = \'93*.fastq.gz\'94, fulnames = T)\
+FqGz\
+\
+ShortRead::sread(FqGz)\
+Biostring::quality(FqGz)\
+Biostring::detail(FqGz)\
+\
+% << == >> << == >> << == >> << == >> << == >> << == >> \
+\
+\
+% << == >> << == >> << == >> << == >> << == >> << == >> \
+\
+\
+\
+% << == >> << == >> << == >> << == >> << == >> << == >> \
+\
+\
+% << == >> << == >> << == >> << == >> << == >> << == >> \
+\
+\
+\
+% << == >> << == >> << == >> << == >> << == >> << == >> \
+\
+\
+% << == >> << == >> << == >> << == >> << == >> << == >> \
+\
+\
+\
+% << == >> << == >> << == >> << == >> << == >> << == >> \
+\
+\
+% << == >> << == >> << == >> << == >> << == >> << == >> \
+\
+\
+\
+% << == >> << == >> << == >> << == >> << == >> << == >> \
+\
+\
+% << == >> << == >> << == >> << == >> << == >> << == >> \
+\
+\
+\
+% << == >> << == >> << == >> << == >> << == >> << == >> \
+\
+\
+% << == >> << == >> << == >> << == >> << == >> << == >> \
+\
+\
+\
+% << == >> << == >> << == >> << == >> << == >> << == >> \
+\
+\
+}
